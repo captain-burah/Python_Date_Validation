@@ -25,7 +25,9 @@ elif (y % 400 != 0 or (y % 4 != 0 and y % 100 == 0) and
         output = "Date is valid"
     else:
         output = "Date is invalid"
-
+else:
+    output = "Date is invalid"
+    
 if (output == "Date is valid"):
     if (m == 2 and d == 29):
         d = 1
